@@ -153,3 +153,4 @@ def plotSymplecticEnergyEvolution(x_0, v_0, h, numSteps):
     plt.plot(tArr, xArrSymp**2 + vArrSymp**2, 'k-', \
         tArr, xArrAnal**2 + vArrAnal**2, 'b-')
     plt.savefig('symplectic_energy_evolution.pdf')
+    
