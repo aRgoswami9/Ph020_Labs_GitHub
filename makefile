@@ -9,7 +9,7 @@ PLOTS = explicit_spring_motion.jpg\
  symplectic_phasespace.jpg\
  symplectic_energy_evolution.jpg
 
-.phony all plots
+.phony: all plots
 
 all: writeup.pdf
 
