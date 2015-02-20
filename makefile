@@ -37,4 +37,4 @@ implicit_phasespace.jpg explicit_phasespace.jpg symplectic_phasespace.jpg: numDE
 	python numDEQ.py phasespace
 
 symplectic_energy_evolution.jpg: numDEQ.py
-	python numDEQ 2.3
+	python numDEQ.py 2.3
